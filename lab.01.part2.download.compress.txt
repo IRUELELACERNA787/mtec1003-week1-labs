@@ -15,38 +15,38 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+cd /
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+cd /
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
-
+/c/Users/Darks/Desktop
 
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
-
+mkdir stuff
 
 
 
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
-
+cd ../..
 
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
-
+cd -
 
 
 ==========
@@ -54,7 +54,7 @@ called stuff without changing your directory?  Write your command below.
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
 
-
+ls -a Desktop
 
 ==========
 Part 2 - Output, Download and Uncompress
@@ -74,6 +74,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
+hello there
 
 
 
@@ -85,6 +86,7 @@ $ echo whoa
 
 Copy and paste the output below.
 ----------
+whoa
 
 
 
@@ -96,7 +98,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+Nothing happens
 
 ==========
 4. Uh-oh... we're stuck!
@@ -113,6 +115,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
+good mornin'
 
 
 
@@ -125,7 +128,7 @@ $ echo *
 What happens?
 ----------
 
-
+A really long list of stuff from the directory I'm in right now is pasted as text. 
 
 
 ==========
@@ -134,7 +137,7 @@ What happens?
 Write the command that you used below:
 ----------
 
-
+clear
 
 ==========
 Downloading files from a web site:  We'll use the following method to download more lab materials!
@@ -149,7 +152,9 @@ $ curl -o mygoogle.html www.google.com
 Now copy and paste the output below.
 ----------
 
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14143    0 14143    0     0   109k      0 --:--:-- --:--:-- --:--:--  110k
 
 
 
@@ -161,6 +166,9 @@ Now copy and paste the output below.
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
 
+pwd
+
+/c/Users/Darks/Desktop
 
 
 
@@ -171,7 +179,7 @@ Write the command you used to determine your directory. Also, copy and paste the
 Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd ~
 
 
 ===========
